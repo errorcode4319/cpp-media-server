@@ -17,4 +17,4 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 file(GLOB_RECURSE SOURCES src/**/*.cpp)
 file(GLOB_RECURSE HEADERS src/**/*.hpp)
 
-add_executable(cpp-media-server ${SOURCES} ${HEADERS})
+add_executable(cpp-media-server ${SOURCES} ${HEADERS} src/cms/common/common.hpp src/cms/common/common.hpp src/cms/common/common.hpp src/cms/common/std_headers.hpp src/cms/cms.hpp)
